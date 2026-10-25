@@ -12,7 +12,7 @@ jobs:
       - name: Setup Arduino CLI
         uses: arduino/setup-arduino-cli@v2
 
-      - name: Install ESP32-S3 Dev Module
+      - name: Install ESP32-S3
         run: |
           arduino-cli core update-index --additional-urls https://githubusercontent.com
           arduino-cli core install esp32:esp32 --additional-urls https://githubusercontent.com
