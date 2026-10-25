@@ -1,5 +1,10 @@
+# include <SPI.h>
+#include <TFT_eSPI.h> 
+// Paksa library menggunakan pinout dari fail tempatan kita, bukannya fail dalam folder library asal
+#define PATH_TO_USER_SETUP_HDR "User_Setup.h" 
 #include <SPI.h>
-#include <TFT_eSPI.h> // Pastikan User_Setup.h dilaraskan mengikut pinout CYD 2.8" anda
+#include <TFT_eSPI.h>
+
 
 TFT_eSPI tft = TFT_eSPI();
 
