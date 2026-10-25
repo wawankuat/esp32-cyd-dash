@@ -1,4 +1,3 @@
-# esp32-cyd-dash
 #include <SPI.h>
 #include <TFT_eSPI.h> // Pastikan User_Setup.h dilaraskan mengikut pinout CYD 2.8" anda
 
