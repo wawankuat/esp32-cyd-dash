@@ -4,10 +4,6 @@ on: [push, workflow_dispatch]
 
 jobs:
   build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout Code
-        uses: actions/checkout@v3
 
       - name: Setup Arduino CLI
         uses: arduino/setup-arduino-cli@v1
