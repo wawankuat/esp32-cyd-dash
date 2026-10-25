@@ -1,6 +1,5 @@
-name: Build ESP32 Firmware
+ESP32 Firmware
 
-on: [push, workflow_dispatch]
 
 jobs:
   build:
