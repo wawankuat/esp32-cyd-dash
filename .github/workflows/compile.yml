@@ -14,7 +14,6 @@ jobs:
 
       - name: Install ESP32 Platform
         run: |
-          arduino-cli core update-index --additional-urls https://githubusercontent.com
           arduino-cli core install esp32:esp32 --additional-urls https://githubusercontent.com
 
       - name: Install Libraries
