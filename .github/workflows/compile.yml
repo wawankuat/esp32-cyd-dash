@@ -1,4 +1,3 @@
-yaml
 name: Build ESP32 Firmware
 
 on: [push, workflow_dispatch]
