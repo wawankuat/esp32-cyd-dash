@@ -23,7 +23,7 @@ jobs:
 
  - name: Compile Sketch
         run: |
-          arduino-cli compile --fqbn esp32:esp32:esp32s3 esp32-cyd-dash.ino ./build
+          arduino-cli compile --fqbn esp32:esp32:esp32s3 esp32-cyd-dash.ino --output-dir ./build
 
       - name: Upload Binary Artifact
         uses: actions/upload-artifact@v4
