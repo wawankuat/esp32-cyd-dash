@@ -21,6 +21,10 @@ jobs:
         run: |
           arduino-cli lib install "TFT_eSPI"
 
+ - name: Compile Sketch
+        run: |
+          arduino-cli compile --fqbn esp32:esp32:esp32s3 esp32-cyd-dash.ino ./build
+
       - name: Upload Binary Artifact
         uses: actions/upload-artifact@v4
         with:
